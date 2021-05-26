@@ -1,3 +1,6 @@
+// Time complexity - O(1)
+// Space complexity - O(n)
+
 function collectOddValues(arr){
     
     let result = [];

@@ -1,3 +1,6 @@
+// Time complexity - O(n)
+// Space complexity - O(n)
+
 function countUniqVals(arr) {    
     // create initial indices of 0 for the left index
     if (arr.length < 1) { return 0 }
@@ -12,8 +15,3 @@ function countUniqVals(arr) {
 }
 
 console.log(countUniqVals([]))
-
-// [1,1,1,2] l = 0, r = 1, arr.l = 4
-// 1 1 = r +1 = 2 = arr[r] = 1
-// 1 1 = r +1 = 3 = arr[r] = 2
-// 1 2 = uniq = arr splice at l+1 = r

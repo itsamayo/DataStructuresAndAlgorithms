@@ -1,3 +1,6 @@
+// Time complexity - O(n)
+// Space complexity - O(n)
+
 function validAnagram(str1, str2){
     // add whatever parameters you deem necessary - good luck!
     let word1 = {};

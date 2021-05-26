@@ -1,3 +1,6 @@
+// Time complexity - O(n^2)
+// Space complexity - O(n)
+
 // LEGACY VERSION (non ES2015 syntax)
 function sselectionSort(arr){
     for(var i = 0; i < arr.length; i++){

@@ -1,3 +1,6 @@
+// Time complexity - O(n^2)
+// Space complexity - O(n)
+
 // UNOPTIMIZED VERSION OF BUBBLE SORT
 function bubbleSort(arr){
   for(var i = arr.length; i > 0; i--){

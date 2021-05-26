@@ -1,3 +1,6 @@
+// Time complexity - O(1)
+// Space complexity - O(1)
+
 // Recursive Version
 function countDown(num){
     if(num <= 0) {
@@ -9,6 +12,9 @@ function countDown(num){
     countDown(num);
 }
 countDown(3)
+
+// Time complexity - O(n)
+// Space complexity - O(1)
 
 // Iterative Version
 function countDown(num){

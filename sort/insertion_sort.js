@@ -1,3 +1,6 @@
+// Time complexity - O(n^2)
+// Space complexity - O(n)
+
 function insertionSort(arr){
 	var currentVal;
     for(var i = 1; i < arr.length; i++){

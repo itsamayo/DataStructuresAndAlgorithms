@@ -1,3 +1,6 @@
+// Time complexity - O(n)
+// Space complexity - O(n)
+
 // Original Solution
 function binarySearch(arr, elem) {
     var start = 0;

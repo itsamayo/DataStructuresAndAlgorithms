@@ -1,3 +1,6 @@
+// Time complexity - O(n^2)
+// Space complexity - O(n)
+
 function naiveSearch(long, short){
     var count = 0;
     for(var i = 0; i < long.length; i++){
