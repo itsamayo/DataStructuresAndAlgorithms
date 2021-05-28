@@ -1,26 +1,29 @@
 // Time complexity - O(1)
 // Space complexity - O(1)
+let n: number = 5;
 
 // Recursive Version
-function countDown(num){
+function countDownRec(num: number){
     if(num <= 0) {
-        console.log("All done!");
+        console.log("Recursive All done!");
         return;
     }
     console.log(num);
     num--;
-    countDown(num);
+    countDownRec(num);
 }
-countDown(3)
+
+countDownRec(n)
 
 // Time complexity - O(n)
 // Space complexity - O(1)
 
 // Iterative Version
-function countDown(num){
+function countDownIt(num: number){
     for(var i = num; i > 0; i--){
         console.log(i);
     }
-    console.log("All done!")
+    console.log("Iterative All done!")
 }
 
+countDownIt(n);

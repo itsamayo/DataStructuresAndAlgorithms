@@ -2,7 +2,7 @@
 // Space complexity - O(n)
 
 // Optimized BubbleSort with noSwaps
-function bubbleSort(arr){
+function bubbleSortNoSwap(arr: number[]){
   var noSwaps;
   for(var i = arr.length; i > 0; i--){
     noSwaps = true;
@@ -19,4 +19,4 @@ function bubbleSort(arr){
   return arr;
 }
 
-bubbleSort([8,1,2,3,4,5,6,7]);
+bubbleSortNoSwap([8,1,2,3,4,5,6,7]);

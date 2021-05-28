@@ -2,7 +2,7 @@
 // Space complexity - O(n)
 
 // LEGACY VERSION (non ES2015 syntax)
-function sselectionSort(arr){
+function selectionSortES(arr: number[]){
     for(var i = 0; i < arr.length; i++){
         var lowest = i;
         for(var j = i+1; j < arr.length; j++){
@@ -20,9 +20,11 @@ function sselectionSort(arr){
     return arr;
 }
 
+selectionSortES([0,2,34,22,10,19,17]);
+
 // ES2015 VERSION
-function selectionSort(arr) {
-  const swap = (arr, idx1, idx2) =>
+function selectionSort(arr: number[]) {
+  const swap = (arr: number[], idx1: number, idx2: number) =>
     ([arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]]);
 
   for (let i = 0; i < arr.length; i++) {

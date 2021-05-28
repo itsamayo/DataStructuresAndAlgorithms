@@ -1,7 +1,7 @@
 // Time complexity - O(n)
 // Space complexity - O(n)
 
-function countUniqVals(arr) {    
+function countUniqVals(arr: number[]) {    
     // create initial indices of 0 for the left index
     if (arr.length < 1) { return 0 }
     let left = 0
@@ -14,4 +14,4 @@ function countUniqVals(arr) {
     return left+1
 }
 
-console.log(countUniqVals([]))
+console.log(countUniqVals([1, 2, 5, 5, 4, 6, 7]))

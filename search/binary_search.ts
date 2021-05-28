@@ -2,7 +2,7 @@
 // Space complexity - O(n)
 
 // Original Solution
-function binarySearch(arr, elem) {
+function binarySearch(arr: number[], elem: number) {
     var start = 0;
     var end = arr.length - 1;
     var middle = Math.floor((start + end) / 2);
@@ -20,8 +20,10 @@ function binarySearch(arr, elem) {
     return -1;
 }
 
+binarySearch([2,5,6,9,13,15,28,30], 103)
+
 // Refactored Version
-function binarySearch(arr, elem) {
+function binarySearchRef(arr: number[], elem: number) {
     var start = 0;
     var end = arr.length - 1;
     var middle = Math.floor((start + end) / 2);
@@ -33,4 +35,4 @@ function binarySearch(arr, elem) {
     return arr[middle] === elem ? middle : -1;
 }
 
-binarySearch([2,5,6,9,13,15,28,30], 103)
+binarySearchRef([2,5,6,9,13,15,28,30], 103)

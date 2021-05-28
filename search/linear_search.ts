@@ -1,7 +1,7 @@
 // Time complexity - O(n)
 // Space complexity - O(n)
 
-function linearSearch(arr, val){
+function linearSearch(arr: number[], val: number){
     for(var i = 0; i < arr.length; i++){
         if(arr[i] === val) return i;
     }

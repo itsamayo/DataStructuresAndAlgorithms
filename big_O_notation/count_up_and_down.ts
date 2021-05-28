@@ -1,13 +1,13 @@
-const {performance} = require('perf_hooks');
+import { performance } from 'perf_hooks';
 
 // Test vars
-const n = 10
+const n: number = 10
 let tstart, tfin, ans
 
 // Count up to n
 // O(n) in time complexity
 // O(1) in space complexity
-function countUpAndDown(n) {
+function countUpAndDown(n: number) {
     console.log('going up')
     for (let i=0; i < n; i++) {
         console.log(i)

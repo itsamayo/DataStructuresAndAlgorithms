@@ -1,7 +1,7 @@
 // Time complexity - O(1)
 // Space complexity - O(n)
 
-function collectOddValues(arr){
+function collectOddValues(arr: number[]){
     let newArr = [];
     
     if(arr.length === 0) {

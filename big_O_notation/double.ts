@@ -1,14 +1,14 @@
-const {performance} = require('perf_hooks');
+import { performance } from 'perf_hooks';
 
 // Test vars
-let arr = [1, 2, 3, 4, 5]
+let arr: number[] = [1, 2, 3, 4, 5]
 let tstart, tfin, ans
 
 // Double each number in the array
 // O(n) in time complexity
 // O(n) in space complexity
 // n = arr.length
-function double(arr) {
+function double(arr: number[]) {
     let newArr = []
     for (let i=0; i < arr.length; i++) {
         newArr.push(2 * arr[i])
