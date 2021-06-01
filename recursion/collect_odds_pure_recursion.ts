@@ -16,7 +16,7 @@ function collectOddValues(arr: number[]){
     return newArr;
 }
 
-collectOddValues([1,2,3,4,5])
+collectOddValues([1,2,3,4,5]);
                                         
                                                                 
                                                                              

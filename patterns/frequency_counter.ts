@@ -12,13 +12,13 @@ function validAnagram(str1, str2){
     for (let j in str2) {
         word2[str2[j]] = word2[str2[j]] + 1 || 1; // 'rat' = {r:1, a:1, t:1}        
     }
-    console.log(word2)
+    console.log(word2);
     for (let x in word1) {
       if (word1[x] != word2[x]) {
-          return false // r=1 r=null = false
+          return false; // r=1 r=null = false
       }
     }
-    return true
+    return true;
 }
 
-console.log(validAnagram('car', 'rac'))
+console.log(validAnagram('car', 'rac'));

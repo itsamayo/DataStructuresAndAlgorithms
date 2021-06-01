@@ -20,7 +20,7 @@ function binarySearch(arr: number[], elem: number) {
     return -1;
 }
 
-binarySearch([2,5,6,9,13,15,28,30], 103)
+binarySearch([2,5,6,9,13,15,28,30], 103);
 
 // Refactored Version
 function binarySearchRef(arr: number[], elem: number) {
@@ -35,4 +35,4 @@ function binarySearchRef(arr: number[], elem: number) {
     return arr[middle] === elem ? middle : -1;
 }
 
-binarySearchRef([2,5,6,9,13,15,28,30], 103)
+binarySearchRef([2,5,6,9,13,15,28,30], 103);

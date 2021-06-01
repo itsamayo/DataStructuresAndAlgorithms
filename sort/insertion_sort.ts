@@ -13,4 +13,4 @@ function insertionSort(arr: number[]){
     return arr;
 }
 
-insertionSort([2,1,9,76,4])
+insertionSort([2,1,9,76,4]);

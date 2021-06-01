@@ -13,7 +13,7 @@ function countDownRec(num: number){
     countDownRec(num);
 }
 
-countDownRec(n)
+countDownRec(n);
 
 // Time complexity - O(n)
 // Space complexity - O(1)

@@ -6,7 +6,7 @@ function sumRange(num: number){
    return num + sumRange(num-1);
 }
 
-console.log(sumRange(4))
+console.log(sumRange(4));
 
                   
                                    

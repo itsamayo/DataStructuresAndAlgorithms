@@ -8,4 +8,4 @@ function linearSearch(arr: number[], val: number){
     return -1;
 }
 
-linearSearch([34,51,1,2,3,45,56,687], 100)
+linearSearch([34,51,1,2,3,45,56,687], 100);

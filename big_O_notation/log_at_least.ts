@@ -1,8 +1,8 @@
 import { performance } from 'perf_hooks';
 
 // Test vars
-const n: number = 10
-let tstart, tfin, ans
+const n: number = 10;
+let tstart: number, tfin: number;
 
 // Print out to at least 5 otherwise n
 // O(n) in time complexity - because the count will grow exponentially with n
@@ -14,10 +14,10 @@ function logAtLeast(n: number) {
 }
 
 // Test logAtLeast method
-tstart = performance.now()
-logAtLeast(n)
-tfin = performance.now()
-console.log('logAtLeast took', (tfin-tstart)/1000, 'seconds')
+tstart = performance.now();
+logAtLeast(n);
+tfin = performance.now();
+console.log('logAtLeast took', (tfin-tstart)/1000, 'seconds');
 
 // Print out to at least 5 otherwise n
 // O(1) in time complexity - because the count will never be more than 5 so it is technically constant
@@ -29,7 +29,7 @@ function logAtMost(n: number) {
 }
 
 // Test logAtLeast method
-tstart = performance.now()
-logAtMost(n)
-tfin = performance.now()
-console.log('logAtMost took', (tfin-tstart)/1000, 'seconds')
+tstart = performance.now();
+logAtMost(n);
+tfin = performance.now();
+console.log('logAtMost took', (tfin-tstart)/1000, 'seconds');

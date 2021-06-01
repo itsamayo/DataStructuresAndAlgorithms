@@ -12,4 +12,4 @@ function naiveSearch(long: string, short: string){
     return count;
 }
 
-naiveSearch("lorie loled", "lol")
+naiveSearch("lorie loled", "lol");
