@@ -4,7 +4,7 @@ import { performance } from 'perf_hooks';
 
 // Test vars
 const n: number = 10000000;
-let tstart, tfin, ans;
+let tstart: number, tfin: number, ans: number;
 
 // Loop example
 // O(n) in time complexity
